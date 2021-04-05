@@ -1,0 +1,146 @@
+.random-design {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 55%;
+  top: 10%;
+  z-index: -1;
+  border-radius: 50%;
+
+  backdrop-filter: blur(2rem);
+  background: linear-gradient(to right, #dc2424, #4a569d);
+  transition: all .5s ease;
+}
+.random-design3 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 25%;
+    top: 50%;
+    z-index: -1;
+    border-radius: 50%;
+    background: linear-gradient(to right, #dc2424, #4a569d);
+    backdrop-filter: blur(2rem);
+    
+  }
+  .random-design4 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 10%;
+    top: 70%;
+    z-index: -1;
+    border-radius: 50%;
+  
+    backdrop-filter: blur(2rem);
+    background: #000;
+  }
+.random-design2 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 35%;
+  background: linear-gradient(to left, #4776e6, #4a569d);
+  top: 40%;
+  backdrop-filter: blur(2rem);
+  border-radius: 50%;
+  
+}
+
+
+/* start */
+
+.glass {
+    border-radius: 2rem;
+  height: 90vh;
+  width: 90%;
+  background: white;
+  z-index: 2;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.2)
+  );
+  margin: 55px auto;
+  backdrop-filter: blur(2rem);
+}
+
+
+.navbar-left{
+    width: 30%;
+    height: 90vh;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+    background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.1)
+  );
+  backdrop-filter: blur(2rem);
+
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    background: url('../assets/pp.png');
+    opacity: .5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+
+}
+
+.identity{
+    width: fit-content;
+    margin: auto;
+    padding: 35px;
+
+}
+
+.name{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 300;
+}
+.position{
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 300;
+}
+
+.links{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 11px;
+    border-radius: 2rem;
+    line-height: 3.5em;
+    transition: all .5s ease;
+}
+
+.links:hover{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
+    color: #fff;
+}
+
+.tabs{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.social{
+    text-align: center;
+    margin-top: 35px;
+}
+.social-desc{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 300;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+}
+.social-icons{
+    font-size: 2em;
+}
