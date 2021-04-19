@@ -30,6 +30,11 @@ export default function Home(){
                         <a href="http://" target="_blank" className="social-icons" rel="noopener noreferrer"><FaLinkedin/></a>
                     </div>
                 </div>
+                <div className="navbar-right">
+                    <div className="particles-container">
+                       
+                    </div>
+                </div>
             </div>
             
         </div>
