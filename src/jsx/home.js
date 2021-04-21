@@ -32,7 +32,11 @@ export default function Home(){
                 </div>
                 <div className="navbar-right">
                     <div className="particles-container">
-                       
+                       <div className="particles"></div>
+                       <div className="particles"></div>
+                       <div className="particles"></div>
+                       <div className="particles"></div>
+                       <div className="particles"></div>
                     </div>
                 </div>
             </div>
