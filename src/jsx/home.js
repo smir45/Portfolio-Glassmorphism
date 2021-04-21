@@ -30,7 +30,7 @@ export default function Home(){
                         <a href="http://" target="_blank" className="social-icons" rel="noopener noreferrer"><FaLinkedin/></a>
                     </div>
                 </div>
-                <div className="navbar-right">
+                {/* <div className="navbar-right">
                     <div className="particles-container">
                        <div className="particles"></div>
                        <div className="particles"></div>
@@ -38,7 +38,7 @@ export default function Home(){
                        <div className="particles"></div>
                        <div className="particles"></div>
                     </div>
-                </div>
+                </div> */}
             </div>
             
         </div>
