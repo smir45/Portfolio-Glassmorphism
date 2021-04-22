@@ -146,6 +146,12 @@ a{
 }
 .social-icons{
     font-size: 2em;
+    transition: all .5s ease;
+}
+
+.social-icons:hover{
+  font-size: 2em;
+  color: #fff;
 }
 .navbar-right{
   width:70%;
@@ -208,7 +214,3 @@ a{
     opacity: 0;
   }
 }
-
-
-
-/* none */
